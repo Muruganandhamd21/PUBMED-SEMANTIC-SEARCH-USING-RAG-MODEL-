@@ -1,2 +1,27 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
 venv/
-/__pycache__
+.env
+
+# =========================
+# Project specific (do not upload large data / DB)
+# =========================
+data/
+db/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
